@@ -12,3 +12,9 @@ You simply have to follow following things
  3. Update the SMTP ADDRESS to match your email provider.
 
  4. Update birthdays.csv to contain today's month and day.
+
+For automation you simply have to run you your code on cloud ,so follow this step
+
+1.create your account in pythonanywhere could service which is absoulately free you just have to register
+
+2.upload your code in the cloud
