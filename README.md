@@ -28,4 +28,4 @@ Ensure you handle your friends' data responsibly and in compliance with privacy 
 Sending automated emails may require consent from the recipients and adherence to email regulations to avoid being marked as spam. Use this script responsibly and with consideration for others' preferences.
 
 ## Credits
-This project was inspired by the need for a simple and automated way to send birthday wishes. Developed by [Your Name].
+This project was inspired by the need for a simple and automated way to send birthday wishes. Developed by me.
