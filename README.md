@@ -1,20 +1,31 @@
-Hey Are you tired of texting birthday wishes to your friends!!!!!!!
+# Automatic Birthday Wishes via Email
 
-Dont worry i have brought a solution to you,you can simply wish your friend on his birthday via mail in an automatic mannner 
-You simply have to follow following things
+## Description
+Are you tired of manually sending birthday wishes to your friends? This Python script allows you to automatically send birthday wishes via email to your friends on their special day. Simply update a CSV file with your friends' birthdays, set up your email details, and let the script do the rest!
 
- To run and test the code you need to update 4 places:
+## Setup
+1. Update the following variables in the script with your information:
+   - `MY_EMAIL`: Your email address.
+   - `MY_PASSWORD`: Your email password or app password if required.
+   - `SMTP_ADDRESS`: Your SMTP server address for sending emails. You might need to check your email provider's documentation for the correct SMTP settings.
+   - Ensure your email provider allows less secure apps or generate an app password if required.
 
- 1. Change MY_EMAIL/MY_PASSWORD to your own details.
+2. Update the `birthdays.csv` file to contain today's month and day for the birthdays you want to celebrate.
 
- 2. Go to your email provider and make it allow less secure apps.
+## Automation
+To automate the birthday wishes, follow these steps:
 
- 3. Update the SMTP ADDRESS to match your email provider.
+1. Create an account on PythonAnywhere cloud service, which is free to register.
 
- 4. Update birthdays.csv to contain today's month and day.
+2. Upload your Python script to PythonAnywhere.
 
-For automation you simply have to run you your code on cloud ,so follow this step
+3. Set up a scheduled task on PythonAnywhere to run your script daily or at a specific time to check for birthdays and send wishes accordingly.
 
-1.create your account in pythonanywhere could service which is absoulately free you just have to register
+## Note
+Ensure you handle your friends' data responsibly and in compliance with privacy regulations.
 
-2.upload your code in the cloud
+## Disclaimer
+Sending automated emails may require consent from the recipients and adherence to email regulations to avoid being marked as spam. Use this script responsibly and with consideration for others' preferences.
+
+## Credits
+This project was inspired by the need for a simple and automated way to send birthday wishes. Developed by [Your Name].
